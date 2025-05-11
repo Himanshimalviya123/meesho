@@ -14,6 +14,7 @@
     justify-content:center;
     gap: 40px;
 }
+
 .nextdown{
     width: 90%;
     height: 40px;
@@ -27,9 +28,14 @@
     border-radius: 30px;
 
 }
-.d-flex
-{
-width: 50%;
+
+.d-flex{
+    width: 50%;
+}
+#oo{
+    border-right: 1px solid black;
+    border-spacing: 2px;
+    
 }
 #images{
     justify-content: space-around;
@@ -37,8 +43,10 @@ width: 50%;
     width: 150%;
     margin-top: 40px;
     margin-bottom: 40px;
-    display: flex;
-    justify-content: space-around;
+     display: flex;
+    justify-content: space-around; 
+    
+   
 }
 
 #ftr{
@@ -62,7 +70,7 @@ width: 50%;
     display:flex;
     gap: 30px;
 }
-#card{
+#cardData{
     display: grid;
     grid-template-columns: auto auto auto auto;
    margin-bottom: 30px;
@@ -88,4 +96,11 @@ width: 50%;
     height: 100px;
     margin-top: 20px;
     padding: 20px;
+}
+#cardData
+{
+    display:  flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
 }

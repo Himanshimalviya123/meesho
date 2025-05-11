@@ -5,7 +5,7 @@ const Footer =()=>{
         <>
          <footer id="ftr">
             <center><h5>
-                EMPLOYMENT MANAGEMENT SYSTEM
+              MEESHO  ONLINE  SHOPING  APP
             </h5></center>
          <div id="footer">
             <div>

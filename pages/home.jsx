@@ -1,8 +1,14 @@
 import { useState,useEffect } from "react";
 
-// import { useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import axios from "axios";
+import backendUrl from "../configuration/backendurl";
+
 import myimg from "../images/image1.webp";
 import myimg11 from "../images/image2.webp";
+
 import myimg1 from "../images/p1.webp";
 import myimg2 from "../images/p2.webp";
 import myimg3 from "../images/p3.webp";
@@ -31,26 +37,48 @@ import myimg23 from "../images/s8.webp";
 import myimg24 from "../images/s9.webp";
 
 
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 
 
 
 
-const Home=()=>{
-const [mydata,setMydata]=useState([]);
-// const dispatch=useDispatch();
-const loadData=async()=>{
-    const loaddata=await axios.get(`http://localhost:3000/product/?product=${id}`)
-    const response = await axios.get(api);
-    console.log(response.data);
-    setMydata(response.data);
-}
-useEffect(()=>{
-   loadData();
-}, []);
 
 
+
+
+
+
+  const Home=()=>{
+    const [mydata,setMydata]=useState([]);
+    const dispatch=useDispatch();
+    const loaddata=async()=>{
+      const response =await axios.get(backendUrl)
+      console.log(response.data);
+      setMydata(response.data);
+      
+    };
+    useEffect(()=>{
+      loaddata();
+
+    },[]);
+       const ans=mydata.map((key)=>{
+        
+       
+     return (
+      <>
+   <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={key.image} />
+      <Card.Body>
+        <Card.Title> {key.name} </Card.Title>
+        <Card.Text>
+         Description :{key.description}
+         Price : {key.price}
+        </Card.Text>
+        <Button variant="primary" onClick={()=>{dispatch(addToCart({id:key.id, name:key.name, description:key.description, category:key.category,  image:key.image,qnty:1,  price:key.price}))}}>Add to Cart</Button>
+      </Card.Body>
+    </Card>
+     </>
+     )
+    })
 
 
     return(
@@ -123,100 +151,31 @@ useEffect(()=>{
      </marquee>
 
      <h1>Products For You</h1>
-<div id="card">
-     <Card style={{ width: '18rem' }}>
-<img src={myimg1} />   
-   <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-<img src={myimg2} />   
-   <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-  
-    <Card style={{ width: '18rem' }}>
-<img src={myimg3} />   
-   <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-  
-    <Card style={{ width: '18rem' }}>
-<img src={myimg4} />   
-   <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-<img src={myimg5} />   
-   <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-<img src={myimg6} />   
-   <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-
-   <Card style={{ width: '18rem' }}>
-<img src={myimg7} />   
-   <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '18rem' }}>
-<img src={myimg8} />   
-   <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    </div>
+    
+      
+<div id="cardData">
+  {ans}
+</div>
+ 
+    
 </>
     )
 }
 export default Home;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
