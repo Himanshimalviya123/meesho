@@ -26,7 +26,7 @@ import myimg13 from "../images/b5.webp";
 import myimg14 from "../images/b6.webp";
 import myimg15 from "../images/b7.webp";
 import myimg16 from "../images/b8.webp";
-
+import img from "../images/image9.webp"
 import myimg17 from "../images/s1.webp";
 import myimg18 from "../images/s2.webp";
 import myimg19 from "../images/s3.webp";
@@ -70,10 +70,13 @@ import myimg24 from "../images/s9.webp";
       <Card.Body>
         <Card.Title> {key.name} </Card.Title>
         <Card.Text>
-         Description :{key.description}
+         BaseMetal :{key.BaseMetal}<br/>
+         plating:{key.plating}<br/>
+         stone type:{key.stonetype}<br/>
          Price : {key.price}
+
         </Card.Text>
-        <Button variant="primary" onClick={()=>{dispatch(addToCart({id:key.id, name:key.name, description:key.description, category:key.category,  image:key.image,qnty:1,  price:key.price}))}}>Add to Cart</Button>
+        <Button variant="primary" onClick={()=>{dispatch(addToCart({id:key.id, name:key.name, BaseMetal:key.BaseMetal,plating:key.plating, stonetype:key.stonetype, image:key.image,qnty:1,  price:key.price}))}}>Add to Cart</Button>
       </Card.Body>
     </Card>
      </>
