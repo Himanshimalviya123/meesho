@@ -1,0 +1,131 @@
+{
+    "electronics":[
+        {
+"id":1,
+"image":"https://images.meesho.com/images/products/473711357/q7879_512.webp",
+"Name" : "Realme 13 5G 8GB 128GB Dark Purple",
+"BatteryCapacity" : "5000mAh",
+"BatteryType" : "Lithium Polymer",
+"Brand" : "realme",
+"Cellular Technology" : "5G",
+"Color" : "Dark Purple",
+"ConnectorType" : "USB Type C",
+"Category" : "phone",
+"Internal Storage" : "128GB",
+"Operating System" : "Android",
+"Primary Camera Resolution" : "50MP",
+"Processor Speed" : "2 - 2.4 GHz",
+"Product Weight" : "190 g",
+"Resolution" : "1080 x 2400",
+"Screen Size" : "6.72inch",
+"SIM Card Size" : "Nano",
+"SIM Card Slot Count" : "Dual SIM",
+"Warranty" : "1 Year",
+"Country of Origin" : "India",
+"Price":14499
+        },
+        {
+        "id":2,
+    "image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1735042369/Croma%20Assets/Communication/Mobiles/Images/312574_0_im3kcx.png?tr=w-640",
+    "Name":"vivo Y29 5G (4GB RAM, 128GB, Glacier Blue)",
+    "Display": "6.68 inches (16.96 cm), LCD, 120 Hz Refresh Rate",
+"Memory": "4GB RAM, 128GB ROM, Memory Card (Hybrid) upto 1TB",
+"Processor": "MediaTek Dimensity 6300, Octa Core, 2.4 GHz",
+"Category" : "phone",
+
+"Camera": "50 MP + 0.08 MP Dual Rear & 8 MP Front Camera",
+"Battery": "5500 mAh with 44W FlashCharge",
+"USP": "IP64 Dust & Water Resistance, AI-Enhanced Stunning Photos, Shock-Absorbing Corners",
+"Price":13999
+    },
+
+     
+        {
+"id":3,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1664009491/Croma%20Assets/Communication/Mobiles/Images/243460_0_n90peu.png?tr=w-640",
+"Name":"Apple iPhone 13 (128GB, Starlight White)",
+"Display": "6.1 inches (15.4 cm), Super Retina XDR OLED",
+"Memory": "128GB ROM",
+"Category" : "phone",
+
+"Processor": "Apple A15 Bionic Chip, Hexa Core",
+"Camera": "12 MP + 12 MP Dual Rear & 12 MP Front Camera",
+"Battery": "3240 mAh with 15W Wireless Charging",
+"USP": "Emergency SOS, IP68 Water Resistant",
+"Price":44990
+},
+{
+ "id":4,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724266867/Croma%20Assets/Communication/Mobiles/Images/309154_0_gknlwm.png?tr=w-640",
+"Name":"Google Pixel 8a 5G (8GB RAM, 128GB, Bay)",
+"Display": "6.1 inches (15.49 cm), OLED, 120 Hz Refresh Rate",
+"Memory": "8GB RAM, 128GB ROM",
+"Category" : "phone",
+
+"Processor": "Google Tensor G3, Nona Core",
+"Camera": "64 MP + 13 MP Dual Rear & 13 MP Front Camera",
+"Battery": "4492 mAh with 30W Fast Charging",
+"Price":37499
+},
+{
+"id":5,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1739782272/313466_0_v83fnx.png?tr=w-640",
+"Name":"LG 6 in 1 Convertible 1.5 Ton 5 Star Dual Inverter Split AC with 6 Step Fan Speed (2025 Model, Copper Condenser US-Q19HNZE.ANLG)",
+"Category":"AirConditioner",
+"Air Conditioner Type":"Split",
+"Air Conditioner Capacity":"1.5 Ton",
+"Coverage Area":"180 Sq.Ft.",
+"Brand":"LG",
+"Model SeriesUS":"Q19HNZE.ANLG",
+"Model NumberUS":"Q19HNZE.ANLG",
+"ProductDimensions": "(Open)",
+"Dimensions": "In CM (WxDxH)99.80 x 21.00 x 34.50",
+"Main Unit Weight":"11 Kg",
+"ProductWeight":"41 Kg",
+"Price":40990
+},
+{
+"id":6,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724939028/Croma%20Assets/Small%20Appliances/Microwave%20or%20OTG/Images/196953_0_vggiic.png?tr=w-640",
+"Name":"LG 28L Convection Microwave Oven with Interleave Technology (Silver)",
+"Microwave":"28 Litres",
+"Ideal": "for Baking Cooking, Defrosting, Grilling, Heating & Roasting",
+"Controls": "Touch Controls",
+"Category" : "microwave",
+
+"Interior": "Stainless Steel",
+"No. of Programs": "251 Autocook Menu",
+" Warranty":"1 Year Product",
+"Price":13940
+},
+{
+    "id":7,
+    "image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724856824/Croma%20Assets/Small%20Appliances/Microwave%20or%20OTG/Images/304899_0_abqq9f.png?tr=w-640",
+"Name":"LG 32L Charcoal Convection Microwave Oven with Wi-Fi Support (Black)",
+"Microwave":"32 Litres",
+"Category" : "microwave",
+
+"Ideal": "for Reheating, Baking, Cooking",
+"Controls": "Touch Sensitive Keypad",
+"Interior": "Stainless Steel",
+"No. of Programs": "401 Auto Cooking Functions, 30 Heart-Healthy Recipes",
+"Price":27590
+},
+
+     {
+"id":8,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1706881177/Croma%20Assets/Small%20Appliances/Microwave%20or%20OTG/Images/302636_0_yj4fuq.png?tr=w-640",
+"Name":"SAMSUNG Slim Fry 28L Convection Microwave Oven with Slim Fry Technology (Black)",
+"Microwave":"28 Litres",
+"Ideal": "for Cooking, Grilling, Frying & Defrosting",
+"Controls": "Touch/Tact",
+"Category" : "microwave",
+
+"Interior": "Ceramic Enamel Cavity",
+"No. of Programs": "Various Autocook Menu",
+"Tandoor Technology": "Child Safety Lock",
+"Price":16190
+        }
+
+    ]
+}

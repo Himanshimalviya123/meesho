@@ -1,137 +1,173 @@
 {
-    "products":[
-        {
-        "id":1,
-        "Name" : "Premium Quality Trending Design Choker Jewellery Set For Women & Girls",
-        "image":"https://images.meesho.com/images/products/314436847/e3tw3_512.webp",
-        "BaseMetal" : "Brass & Copper",
-        "Plating" : "Gold Plated",
-        "Stonetype" : "Cubic Zirconia/American Diamond",
-        "Sizing" : "Adjustable",
-        "Type" : "Choker and Earrings",
-        "Net Quantity (N)" : 1,
-        "Country of Origin" : "India",
-        "price":1380
-        },
-        {
-        "id":2,
-        "Name" : "Sterling Rhodium Plated Jewellery Set With White Austrian Diamond",
-        "image":"https://images.meesho.com/images/products/87877510/qsyih_512.webp",
-        "BaseMetal" : "alloy",
-        "Plating" : " Silver Plated",
-        "Stonetype" : "Cubic Zirconia/American Diamond",
-        "Sizing" : "Adjustable",
-        "Type" : "Necklace Earrings Maangtika",
-        "Net Quantity (N)" : 1,
-        "Country of Origin" : "India",
-        "price":1380
-        },
-        {
-            "id":3,
-           
-            "Name" : "Gold Plated Choker Set with Lct Austrian diamond",
-            "image":"https://www.meesho.com/gold-plated-choker-set-with-lct-austrian-diamond/p/1j2g58",
-            "Plating" : "Gold Plated",
-            "BaseMetal" : "alloy",
-            "Stonetype" : "Cubic Zirconia/American Diamond",
-            "Sizing" : "Adjustable",
-            "Type" : "necklace and Earrings",
-            "Net Quantity (N)" : 1,
-            "Country of Origin" : "India",
-            "price":1380
-            
-        },
-        {
-            "id":4,
-            "Name" : "Fancy 1 GRAM GOLD PLATED JEWELLERY SET",
-            "image":"https://www.meesho.com/fancy-1-gram-gold-plated-jewellery-set/p/2vqp6l",
-            "Plating" : "Gold Plated",
-            "BaseMetal" : "alloy",
-            "Stonetype" : "no stone",
-            "Sizing" : "Adjustable",
-            "Type" : "Necklace and Earrings",
-            "Net Quantity (N)" : "2 Necklaces (For J-Set)",
-            "Country of Origin" : "India",
-            "price":261
-        },
-        {
-            "id":5,
-            "Name" : "Premium Quality Trending Design Choker Jewellery Set For Women & Girls",
-"image":"",
-"BaseMetal" : "Brass & Copper",
-"Plating" : "Gold Plated",
-"Stonetype" : "Cubic Zirconia/American Diamond",
-"Sizing" : "Adjustable",
-"Type" : "Choker and Earrings",
-"Net Quantity (N)" : 1,
-"Country of Origin" : "India",
-"price":1380
-        },
-        {
-            
-            "id":6 ,
-            "Name" : "Premium Quality Trending Design Choker Jewellery Set For Women & Girls",
-            "image":"https://www.meesho.com/premium-quality-trending-design-choker-jewellery-set-for-women-girls/p/577h0v",
-            "Plating" : "Gold Plated",
-            "BaseMetal" : "Brass & Copper",
-            "Stonetype" : "Cubic Zirconia/American Diamond",
-            "Sizing" : "Adjustable",
-            "Type" : "Choker and Earrings",
-            "Net Quantity (N)" : 1,
-            "Country of Origin" : "India",
-            "price":1380
-          
-        },
-        {
-              "id":7,
-            "Name" : "Premium Quality Trending Design Choker Jewellery Set For Women & Girls",
-            "image":"https://www.meesho.com/premium-quality-trending-design-choker-jewellery-set-for-women-girls/p/577h0v",
-            "Plating" : "Gold Plated",
-            "Base Metal" : "Brass & Copper",
-            "Stone Type" : "Cubic Zirconia/American Diamond",
-            "Sizing" : "Adjustable",
-            "Type" : "Choker and Earrings",
-            "Net Quantity (N)" : 1,
-            "Country of Origin" : "India",
-            "price":1380
-        },
-        {
-             "id":8,
-            "Name" : "Premium Quality Trending Design Choker Jewellery Set For Women & Girls",
-            "image":"https://www.meesho.com/premium-quality-trending-design-choker-jewellery-set-for-women-girls/p/577h0v",
-            "Plating" : "Gold Plated",
-            "Base Metal" : "Brass & Copper",
-            "Stone Type" : "Cubic Zirconia/American Diamond",
-            "Sizing" : "Adjustable",
-            "Type" : "Choker and Earrings",
-            "Net Quantity (N)" : 1,
-            "Country of Origin" : "India",
-            "price":1380
-        },
-        {
-            "id":11,
-            "name":"banarasi sarees new collection banarasi silk sarees 2024 new design party wear silk saree",
-            "description":"SELLORIA Analog White Dial Boys' & Girls' Watch Best Gift for Kids",
-            "image":"https://www.meesho.com/banarasi-sarees-new-collection-banarasi-silk-sarees-2024-new-design-party-wear-silk-saree/p/7ky2ve",
-            "category":"kids",
-            "price":1000
-        },
-        {
-            "id":9,
-            "name":"Matrix Black, Blue, White Dial, Day & Date Functioning",
-            "description":"Matrix Black, Blue, White Dial, Day & Date Functioning, Stainless Steel Strap Analog Watch for Men & Women",
-            "image":"https://www.meesho.com/premium-quality-trending-design-choker-jewellery-set-for-women-girls/p/577h0v",
-            "category":"women",
-            "price":574
-        },
-        {
-            "id":10,
-            "name":"Chick set round a",
-            "description":"Matrix Daisy Collection | Stone Studded Dial with Designer Stone Studded Bracelet Chain Analog Watch for Women & Girls",
-            "image":"https://www.meesho.com/chick-set-round-a/p/30tsn4",
-            "category":"women",
-            "price":1499
-        }
-        
-    ]
+"electronics":[
+    {
+"id":1,
+"image":"https://images.meesho.com/images/products/473711357/q7879_512.webp",
+"Name" : "Realme 13 5G 8GB 128GB Dark Purple",
+"BatteryCapacity" : "5000mAh",
+"BatteryType" : "Lithium Polymer",
+"Brand" : "realme",
+"CellularTechnology" : "5G",
+"Color" : "Dark Purple",
+"ConnectorType" : "USB Type C",
+"category" : "phone",
+"InternalStorage" : "128GB",
+"OperatingSystem" : "Android",
+"PrimaryCamera Resolution" : "50MP",
+"ProcessorSpeed" : "2 - 2.4 GHz",
+"ProductWeight" : "190 g",
+"Resolution" : "1080 x 2400",
+"ScreenSize" : "6.72inch",
+"SIMCardSize" : "Nano",
+"SIMCardSlotCount" : "Dual SIM",
+"Warranty" : "1 Year",
+"CountryofOrigin" : "India",
+"price":14499
+},
+ {
+"id":2,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1735042369/Croma%20Assets/Communication/Mobiles/Images/312574_0_im3kcx.png?tr=w-640",
+"Name":"vivo Y29 5G (4GB RAM, 128GB, Glacier Blue)",
+"Display": "6.68 inches (16.96 cm), LCD, 120 Hz Refresh Rate",
+"Memory": "4GB RAM, 128GB ROM, Memory Card (Hybrid) upto 1TB",
+"Processor": "MediaTek Dimensity 6300, Octa Core, 2.4 GHz",
+"category" : "phone",
+"Camera": "50 MP + 0.08 MP Dual Rear & 8 MP Front Camera",
+"Battery": "5500 mAh with 44W FlashCharge",
+"USP": "IP64 Dust & Water Resistance, AI-Enhanced Stunning Photos, Shock-Absorbing Corners",
+"price":13999
+ },
+{
+"id":3,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1664009491/Croma%20Assets/Communication/Mobiles/Images/243460_0_n90peu.png?tr=w-640",
+"Name":"Apple iPhone 13 (128GB, Starlight White)",
+"Display": "6.1 inches (15.4 cm), Super Retina XDR OLED",
+"Memory": "128GB ROM",
+"category" : "phone",
+"Processor": "Apple A15 Bionic Chip, Hexa Core",
+"Camera": "12 MP + 12 MP Dual Rear & 12 MP Front Camera",
+"Battery": "3240 mAh with 15W Wireless Charging",
+"USP": "Emergency SOS, IP68 Water Resistant",
+"price":44990
+},
+{
+ "id":4,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724266867/Croma%20Assets/Communication/Mobiles/Images/309154_0_gknlwm.png?tr=w-640",
+"Name":"Google Pixel 8a 5G (8GB RAM, 128GB, Bay)",
+"Display": "6.1 inches (15.49 cm), OLED, 120 Hz Refresh Rate",
+"Memory": "8GB RAM, 128GB ROM",
+"category" : "phone",
+"Processor": "Google Tensor G3, Nona Core",
+"Camera": "64 MP + 13 MP Dual Rear & 13 MP Front Camera",
+"Battery": "4492 mAh with 30W Fast Charging",
+"price":37499
+},
+{
+"id":5,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1739782272/313466_0_v83fnx.png?tr=w-640",
+"Name":"LG 6 in 1 Convertible 1.5 Ton 5 Star Dual Inverter Split AC with 6 Step Fan Speed (2025 Model, Copper Condenser US-Q19HNZE.ANLG)",
+"category":"AirConditioner",
+"AirConditioner Type":"Split",
+"AirConditioner Capacity":"1.5 Ton",
+"Coverage Area":"180 Sq.Ft.",
+"Brand":"LG",
+"ModelSeriesUS":"Q19HNZE.ANLG",
+"ModelNumberUS":"Q19HNZE.ANLG",
+"ProductDimensions": "(Open)",
+"Dimensions": "In CM (WxDxH)99.80 x 21.00 x 34.50",
+"MainUnitWeight":"11 Kg",
+"ProductWeight":"41 Kg",
+"price":40990
+},
+{
+"id":6,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724939028/Croma%20Assets/Small%20Appliances/Microwave%20or%20OTG/Images/196953_0_vggiic.png?tr=w-640",
+"Name":"LG 28L Convection Microwave Oven with Interleave Technology (Silver)",
+"Microwave":"28 Litres",
+"Ideal": "for Baking Cooking, Defrosting, Grilling, Heating & Roasting",
+"Controls": "Touch Controls",
+"category" : "microwave",
+"Interior": "Stainless Steel",
+"NoofPrograms": "251 Autocook Menu",
+"Warranty":"1 Year Product",
+"price":13940
+},
+{
+"id":7,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1724856824/Croma%20Assets/Small%20Appliances/Microwave%20or%20OTG/Images/304899_0_abqq9f.png?tr=w-640",
+"Name":"LG 32L Charcoal Convection Microwave Oven with Wi-Fi Support (Black)",
+"Microwave":"32 Litres",
+"category" : "microwave",
+"Ideal": "for Reheating, Baking, Cooking",
+"Controls": "Touch Sensitive Keypad",
+"Interior": "Stainless Steel",
+"NoofPrograms": "401 Auto Cooking Functions, 30 Heart-Healthy Recipes",
+"price":27590
+},
+{
+"id":8,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1706881177/Croma%20Assets/Small%20Appliances/Microwave%20or%20OTG/Images/302636_0_yj4fuq.png?tr=w-640",
+"Name":"SAMSUNG Slim Fry 28L Convection Microwave Oven with Slim Fry Technology (Black)",
+"Microwave":"28 Litres",
+"Ideal": "for Cooking, Grilling, Frying & Defrosting",
+"Controls": "Touch/Tact",
+"category" : "microwave",
+"Interior": "Ceramic Enamel Cavity",
+"NoofPrograms": "Various Autocook Menu",
+"TandoorTechnology": "Child Safety Lock",
+"price":16190
+},
+{
+"id":9,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1712051864/Croma%20Assets/Small%20Appliances/Water%20Purifier/Images/302027_0_lztukr.png?tr=w-640",
+"Name":"Livpure Daze 7L RO + UV + UF Water Purifier with Super Sediment Filter (Black))",
+"PurificationProcess": "RO, UV, UF, Mineralizer",
+"category":"waterpurify",
+"FiltrationCapacity": "12L/hr",
+"StorageCapacity": "7 Litres",
+"Warranty":"1 Year",
+"price":8490
+},
+{
+"id":10,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1738249814/Croma%20Assets/Small%20Appliances/Water%20Purifier/Images/226375_0_hgizng.png?tr=w-640",
+"Name":"KENT Grand Plus 9L RO + UV + UF +UV-in-tank + TDS Water Purifier with Zero Water Wastage (White)",
+"PurificationProcess": "RO,UV,UF,TDS",
+"category":"waterpurify",
+"FiltrationCapacity": "20L/hr",
+"StorageCapacity": "9 Litres",
+"Warranty":"1 Year",
+"price":19649
+},
+{
+"id":11,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1737107799/Croma%20Assets/Small%20Appliances/Kettles/Images/310925_0_tngywe.png?tr=w-640",
+"Name":"Croma 1350 Watt 1.5 Litre Electric Kettle with Overload Protection (Silver)",
+"Type": "Electric Kettle",
+"category":"microwave",
+"Capacity": "1.5 Litre",
+"Wattage": "1350 W",
+"Material": "Stainless Steel",
+"Warranty":"1 Year",
+"price":599
+},
+{
+"id":12,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1702668138/Croma%20Assets/Large%20Appliances/Air%20Conditioner/Images/273742_0_uxwg9m.png?tr=w-640",
+"Name":"Blue Star Y Series 5 in 1 Convertible 1.5 Ton 3 Star Inverter Split AC with Self Diagnosis (Copper Condenser, ID318YKU)",
+"category":"AirConditioner",
+"AirConditionerType":"Split",
+"AirConditionerCapacity":"1.5 Ton",
+"Coverage Area":"180 Sq.Ft.",
+"Brand":"LG",
+"ModelSeriesUS":"Q19HNZE.ANLG",
+"ModelNumberUS":"Q19HNZE.ANLG",
+"ProductDimensions": "(Open)",
+"Dimensions": "In CM (WxDxH)99.80 x 21.00 x 34.50",
+"MainUnitWeight":"11 Kg",
+"ProductWeight":"41 Kg",
+"price":35990
+}
+
+]
 }

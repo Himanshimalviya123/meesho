@@ -1,14 +1,16 @@
+
 import { createRoot } from 'react-dom/client'
-import "../css/style.css";
 
 import App from './App.jsx'
-import Store from '../pages/store.jsx';
-import { Provider } from 'react-redux';
+import "../css/style.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+import store from './pages/store.jsx';
+import { Provider } from 'react-redux';
 createRoot(document.getElementById('root')).render(
-<Provider store={Store}>
- <App />
-</Provider>
-   
+    <Provider store={store}>
+<App />
+    </Provider>
 
 )

@@ -1,15 +1,16 @@
-import logo1 from "../images/logo1.webp";
-import logo2 from "../images/logo2.webp";
-const Footer =()=>{
+const Footer=()=>{
     return(
         <>
-         <footer id="ftr">
-            <center><h5>
-              MEESHO  ONLINE  SHOPING  APP
-            </h5></center>
+         {/* <div id="footer">
+           www.myshop.com
+         </div> */}
+            <footer id="ftr">
+            <center><h1>
+              CORMA  SHOPING  NOW
+            </h1></center>
          <div id="footer">
             <div>
-            <h3>Shop Non-Stop on Meesho.</h3><br/>
+            <h3>Shop Non-Stop on Corma.</h3><br/>
             <h5>Trusted by more than 1 Crore <br/>Indians
             Cash on Delivery | Free Delivery</h5>
                 <input type="email" placeholder=" enter your email"/>
@@ -25,7 +26,7 @@ const Footer =()=>{
             <div>
                 {/* <h3>Contact us</h3><br/> */}
                 <h5>Legal and Policies</h5>
-                <h5>Meesho Tech Blog</h5>
+                <h5>Corma Tech Blog</h5>
                 <h5>Notices and Returns</h5>
             </div>
             <div>
@@ -51,4 +52,5 @@ const Footer =()=>{
         </>
     )
 }
+
 export default Footer;
