@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="singup.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+  
+   
+ 
+      <form id="form" data-aos="flip-right"
+      data-aos-duration="1500" >
+        <h2>SIGN UP</h2>
+
+        <p id="nameerror"></p>
+        <input type="text" placeholder="Name" id="nameinput" data-aos="zoom-in-right"
+        data-aos-duration="1500"><br><br>
+        <p id="numbererror"></p>
+        <input type="text" placeholder="Number" id="numberinput" data-aos="zoom-in-right"
+        data-aos-duration="2500"><br><br>
+        <p id="emailerror"></p>
+        <input type="text" placeholder="E-mail" id="emailinput" data-aos="zoom-in-right"
+        data-aos-duration="2500"><br><br>
+        <p id="passworderror"></p>
+        <input type="text" placeholder="Password" id="inputpassword" data-aos="zoom-in-right"
+        data-aos-duration="2500"><br><br>
+        <p id="conpasserror"></p>
+        <input type="text" placeholder="Confirmpassword" id="confirmpassinput"><br><br>
+
+        <input type="submit" value="signup" onclick="return sub()" id="submit" >
+
+
+
+      </form>
+   
+
+  
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script1.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
+

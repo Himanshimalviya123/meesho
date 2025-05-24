@@ -167,6 +167,19 @@
 "MainUnitWeight":"11 Kg",
 "ProductWeight":"41 Kg",
 "price":35990
+},
+{
+"id":13,
+"image":"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717599852/Croma%20Assets/Small%20Appliances/Fans/Images/307344_y730th.png?tr=w-640",
+"Name":"atomberg Studio Smart Plus 5 Star 1200mm 3 Blade BLDC Motor Smart Ceiling Fan with Remote (Boost Mode, Marble White)",
+"SweepSize": "1200mm",
+"category":"AirConditioner",
+"PowerConsumption": "35 Watt, 5 Star Rating",
+"SpeedSettings": 6,
+"RPM": 360,
+"Energy Efficient BLDC Motor": "Easy Control with Alexa Ok Google Voice Assistant and atomberg Home App, Boost and Sleep Mode",
+"Warranty":"3 Year",
+"price":5799
 }
 
 ]

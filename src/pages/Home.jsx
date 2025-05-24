@@ -66,6 +66,8 @@ const Home=()=>{
              <Carousel>
       <Carousel.Item>
          <img src={b1} width="100%" height="400" />
+        
+           
         </Carousel.Item>
       <Carousel.Item>
       <img src={b2} width="100%" height="400" />
@@ -77,7 +79,10 @@ const Home=()=>{
         <Carousel.Item>
           <img src={b5} width="100%" height="400" />
         </Carousel.Item>
-    </Carousel>       
+         
+           
+    </Carousel>   
+    
 <h1 className="heading"> Our Latest Products</h1>
       <div id='cardData'>
       {ans} 

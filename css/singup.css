@@ -1,0 +1,379 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+ body{
+    width: 100%;
+    height: 100vh;
+   /* background:  linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142));*/
+     display: flex;
+    background-image: url("https://t4.ftcdn.net/jpg/07/00/99/97/240_F_700999714_D78AUZytwNyGt7vN1Vk6GK3B8EnoHVi0.jpg");
+    background-size: cover;
+    
+}
+#container h1{
+    
+    font-weight: bold;
+    text-decoration: underline;
+    width: 105px;
+    height: 115px;
+    border: 5px dashed rgb(254, 251, 251);
+    border-radius: 50%;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(248, 243, 243);
+    transition: all 3s ease-in-out;
+}
+#container h1:hover{
+    color: rgb(191, 165, 36);
+    transform: rotate(360deg);
+    border-radius: 100px;
+    font-size: 35px;
+}
+#container h1 span{
+    color: rgb(156, 130, 25);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#container h1 span:hover{
+    color: rgb(14, 14, 13);
+}
+h2{
+    margin-bottom: 7px;
+    color: aliceblue;
+}
+#form{
+    width: 500px;
+    height: 550px;
+    border: 0px solid black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 25%;
+    box-shadow: 5px 7px 10px rgb(13, 13, 14),-5px -7px 10px rgb(15, 16, 16);
+    background: rgba(13, 13, 13, 0.445);
+   
+}
+
+form input{
+    color: rgb(222, 226, 229);
+    width: 60%;
+    height: 40px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding-left: 5px;
+    box-shadow: 1px 1px 3px rgb(70, 55, 55),-1px -1px 3px rgb(99, 76, 76);
+    
+}
+#submit{
+    background: aliceblue;
+    color: rgb(8, 11, 13);
+    font-size: 30px;
+    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+    border-radius: 20px;
+}
+#submit:hover{
+    color:white;
+    background: transparent;
+}
+#form p{
+    font-size: large;
+    
+}
+@media (max-width:450px){
+    body{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    #form{
+        width: 100%;
+        height: 550px;
+        margin-left: 0;
+    }
+}
+
+/* ================================(login css)================================================ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142)); */
+    background-image: url("./project.images/istockphoto-blue.jpg");
+    background-size: cover;
+}
+#login{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+    background: transparent;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2cm;
+    color: aliceblue;
+    text-align: center;
+}
+.inp{
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid aliceblue;
+}
+.inp label{
+    position:absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: aliceblue;
+    pointer-events: none;
+    transition: .5s;
+}
+.inp input:focus~label,
+.inp input:valid~label{
+    top: -5px;
+}
+.inp input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: aliceblue;
+    padding: 0 35px 0 5px;
+}
+.inp .icon{
+    position: absolute;
+    right: 8px;
+    color: aliceblue;
+    font-size: 1.2em;
+    line-height: 57px;
+
+}
+.remember{
+    margin: 15px 0 15px;
+    font-size: .9em;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.remember label input{
+    margin-right: 3px;
+}
+.remember a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+#insert input{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+    font-size: 1.7em;
+    color:  aliceblue;;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+}
+#insert input:hover{
+    background: aliceblue;
+    color: black;
+}
+#register{
+    font-size: .9em;
+    color: rgb(219, 223, 227);
+    text-align: center;
+    margin: 25px 0 10px;
+    
+}
+#register p a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+#register p a:hover{
+    text-decoration: underline;
+}
+
+/*=================================================ends===============================================================================================*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142)); */
+    background-image: url("./project.images/istockphoto-blue.jpg");
+    background-size: cover;
+}
+#login{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+    background: transparent;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2cm;
+    color: aliceblue;
+    text-align: center;
+}
+.inp{
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid aliceblue;
+}
+.inp label{
+    position:absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: aliceblue;
+    pointer-events: none;
+    transition: .5s;
+}
+.inp input:focus~label,
+.inp input:valid~label{
+    top: -5px;
+}
+.inp input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: aliceblue;
+    padding: 0 35px 0 5px;
+}
+.inp .icon{
+    position: absolute;
+    right: 8px;
+    color: aliceblue;
+    font-size: 1.2em;
+    line-height: 57px;
+
+}
+.remember{
+    margin: 15px 0 15px;
+    font-size: .9em;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.remember label input{
+    margin-right: 3px;
+}
+.remember a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+#insert input{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+    font-size: 1.7em;
+    color:  aliceblue;;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 5px 5px 13px rgb(97, 123, 148),-5px -5px 13px rgb(94, 131, 146);
+}
+#insert input:hover{
+    background: aliceblue;
+    color: black;
+}
+#register{
+    font-size: .9em;
+    color: rgb(219, 223, 227);
+    text-align: center;
+    margin: 25px 0 10px;
+    
+}
+#register p a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+#register p a:hover{
+    text-decoration: underline;
+}
+
+/*=================================================ends===============================================================================================*/
+
+
+   
+   
+
+   
+    
+
+
+
+
+
+   
+   
+
+   
+    
+
+
+
+

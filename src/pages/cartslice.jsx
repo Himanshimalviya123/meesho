@@ -40,7 +40,7 @@ const cartSlice = createSlice({
                     if (state.cart[i].qnty<=1)
                     {
                         // alert("Quantity not less than 1")
-                       toast.info ("Quantity not less than 1 error", {
+                       toast.info ("Quantity not less than 1", {
         position: "bottom-right"  
       }
       

@@ -29,7 +29,7 @@ const navigate= useNavigate();
                   <Nav.Link as={Link} to="microwave">Microwave</Nav.Link> 
                           <Nav.Link as={Link} to="waterpurify">Water Purify</Nav.Link> 
                           <Nav.Link as={Link} to="mycartslice">Mycart</Nav.Link> 
-                    <Nav.Link as={Link} to="search">search</Nav.Link> 
+                    <Nav.Link as={Link} to="search">Search</Nav.Link> 
 
          
           <Form className="d-flex">
@@ -42,6 +42,9 @@ const navigate= useNavigate();
            
           </Form>
 
+ {/* <button onchange="sing()" className="headers">Signup</button>
+            <button onchange="logout()" className="headers">Logout</button> */}
+           
   
       <div id="oo">become a<br/> supplier</div>
      <div id="oo">Investor<br/> Relations</div>

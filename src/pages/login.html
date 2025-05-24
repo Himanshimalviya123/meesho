@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>LOGIN</title>
+</head>
+<body >
+
+    <div id="login"  data-aos="flip-left"
+               data-aos-duration="2000">
+        <form >
+            <h2 data-aos="zoom-in"
+            data-aos-duration="2500">LOGIN</h2>
+            <div class="inp">
+                <span class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </span>
+                <p id="emailerror"></p>
+                <input type="email" required id="mail" data-aos="zoom-in-left" data-aos-duration="2500">
+                <label>Email</label>
+            </div>
+            <div class="inp">
+                <span class="icon">
+                    <i class="fa-solid fa-lock"></i>
+                </span>
+                <p id="passerror"></p>
+                <input type="text" required id="password" data-aos="zoom-in-right"data-aos-duration="2500">
+                <label>Password</label>
+            </div>
+            <div class="remember">
+                <label><input type="checkbox">Remember Me</label>
+                <a href="#">Forget Password</a>
+
+            </div>
+           <div id="insert" >
+            <input type="submit" value="Login" onclick="return login()" id="btn" data-aos="zoom-in-right"data-aos-duration="2500">
+           </div>
+           <div id="register" >
+            <p>Don't have an account?<a href="#">Register</a></p>
+
+           </div>
+
+        </form>
+
+    </div>
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script1.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
