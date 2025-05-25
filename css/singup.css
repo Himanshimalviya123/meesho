@@ -1,4 +1,4 @@
-
+/* 
 
 *{
     margin: 0;
@@ -9,7 +9,7 @@
  body{
     width: 100%;
     height: 100vh;
-   /* background:  linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142));*/
+   background:  linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142));
      display: flex;
     background-image: url("https://t4.ftcdn.net/jpg/07/00/99/97/240_F_700999714_D78AUZytwNyGt7vN1Vk6GK3B8EnoHVi0.jpg");
     background-size: cover;
@@ -109,7 +109,7 @@ form input{
 /* ================================(login css)================================================ */
 
 
-*{
+/* *{
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -122,7 +122,7 @@ body{
     justify-content: center;
     align-items: center;
     /* background: linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142)); */
-    background-image: url("./project.images/istockphoto-blue.jpg");
+    /* background-image: url("./project.images/istockphoto-blue.jpg");
     background-size: cover;
 }
 #login{
@@ -228,11 +228,10 @@ h2{
 }
 #register p a:hover{
     text-decoration: underline;
-}
-
+}  */
 /*=================================================ends===============================================================================================*/
 
-
+/* 
 
 *{
     margin: 0;
@@ -245,9 +244,9 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     /* background: linear-gradient(rgb(63, 142, 148),rgb(163, 163, 210),rgb(59, 105, 142)); */
-    background-image: url("./project.images/istockphoto-blue.jpg");
+    /* background-image: url("./project.images/istockphoto-blue.jpg");
     background-size: cover;
 }
 #login{
@@ -353,7 +352,7 @@ h2{
 }
 #register p a:hover{
     text-decoration: underline;
-}
+} */
 
 /*=================================================ends===============================================================================================*/
 

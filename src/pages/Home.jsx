@@ -87,6 +87,9 @@ const Home=()=>{
       <div id='cardData'>
       {ans} 
       </div>
+
+
+      
         </>
     )
 }
