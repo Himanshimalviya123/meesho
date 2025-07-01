@@ -9,20 +9,6 @@ import Microwave from "./pages/microwave";
 import Waterpurify from "./pages/waterpurify";
 import MyCart from "./pages/mycartslice";
 import { ToastContainer, toast } from 'react-toastify';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const App=()=>{
   return(
     <>
