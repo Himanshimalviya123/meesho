@@ -53,22 +53,12 @@ const Home=()=>{
         </>
     )
  })
-
-
-
-
-
-
-
-    return(
+return(
         <>
-
-             <Carousel>
+<Carousel>
       <Carousel.Item>
          <img src={b1} width="100%" height="400" />
-        
-           
-        </Carousel.Item>
+         </Carousel.Item>
       <Carousel.Item>
       <img src={b2} width="100%" height="400" />
         </Carousel.Item>
