@@ -30,17 +30,14 @@ const navigate= useNavigate();
                           <Nav.Link as={Link} to="waterpurify">Water Purify</Nav.Link> 
                           <Nav.Link as={Link} to="mycartslice">Mycart</Nav.Link> 
                     <Nav.Link as={Link} to="search">Search</Nav.Link> 
-
-         
-          <Form className="d-flex">
+                    <Form className="d-flex">
             <Form.Control
               type="search"
               placeholder="search products"
               className="me-2"
               aria-label="Search"
             />
-           
-          </Form>
+           </Form>
 
  {/* <button onchange="sing()" className="headers">Signup</button>
             <button onchange="logout()" className="headers">Logout</button> */}
@@ -54,14 +51,9 @@ const navigate= useNavigate();
             {cartLength}
       <FaCartShopping onClick={()=>{navigate("/mycartslice")}}  style={{cursor:"pointer"}}/>
            </div>
-  
-
-      </Container>
+  </Container>
     </Navbar>
-
-   
-        </>
+     </>
     )
 }
-
 export default Header;
