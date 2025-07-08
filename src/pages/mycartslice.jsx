@@ -35,17 +35,13 @@ const MyCart =()=>{
 });
     return(
       <>
- 
-
-        
-           <h1 className="heading"> My Cart Products</h1> 
+  <h1 className="heading"> My Cart Products</h1> 
            <h2 align="center"><FaIndianRupeeSign/>  : {TotAmount}</h2> 
            <hr />
            <Table striped bordered hover variant="light" style={{width:"80%", margin:"auto", marginTop:"20px",border:"2px solid black"}}>
      <thead>
   <tr>
-    
-    <th>Image</th>
+<th>Image</th>
     <th>Product Name</th>
     <th>Category</th>
     <th>Quantity</th>

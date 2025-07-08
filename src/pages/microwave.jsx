@@ -1,34 +1,22 @@
-
 import b2 from "../images/micro6.webp";
-
-
 import { useState, useEffect } from 'react';
-
 import axios from 'axios';
-
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
 import { addToCart } from './cartslice';
 import { useDispatch } from 'react-redux';
-
 const Microwave=()=>{
- const [mydata, setMydata]= useState([]);
- const dispatch = useDispatch();
-
- const loadData=async()=>{
-    
-
-    const response = await axios.get("http://localhost:3000/electronics/?category=microwave");
+const [mydata, setMydata]= useState([]);
+const dispatch = useDispatch();
+const loadData=async()=>{
+const response = await axios.get("http://localhost:3000/electronics/?category=microwave");
     console.log(response.data);
     setMydata(response.data);
  }
-
- useEffect(()=>{
+useEffect(()=>{
     loadData();
  }, []);
-
- const ans=mydata.map((key)=>{
+const ans=mydata.map((key)=>{
     return(
         <>
      <Card style={{ width: '18rem' }}>
@@ -47,25 +35,14 @@ const Microwave=()=>{
         </>
     )
  })
-
-
-
-
-
-
-
-    return(
+  return(
         <>
-
-                 <img src={b2} width="100%" height="350" />
-           
-
-      <h1 className="heading">Our  Microwave</h1>
+<img src={b2} width="100%" height="350" />
+<h1 className="heading">Our  Microwave</h1>
       <div id='cardData'>
       {ans}
       </div>
-      
-        </>
+      </>
     )
 }
 
