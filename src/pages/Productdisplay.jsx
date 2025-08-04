@@ -13,7 +13,6 @@ const ProductDisplay=()=>{
     useEffect(()=>{
         loadData();
     }, []);
-
     return(
         <>
         <center>

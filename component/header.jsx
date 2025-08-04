@@ -18,7 +18,6 @@ const Header=()=>{
 const navigate= useNavigate();
     return(
         <>
-       
          <Navbar expand="dark" className="bg-body-tertiary">
       <Container fluid id="container">
       <div id="corma"><img src={img1} width="80%" height="80px" />
@@ -38,7 +37,6 @@ const navigate= useNavigate();
               aria-label="Search"
             />
            </Form>
-
  {/* <button onchange="sing()" className="headers">Signup</button>
             <button onchange="logout()" className="headers">Logout</button> */}
            

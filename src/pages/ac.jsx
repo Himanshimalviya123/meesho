@@ -1,28 +1,19 @@
 
 import b1 from "../images/couresol1.webp";
-
 import { useState, useEffect } from 'react';
-
 import axios from 'axios';
-
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
 import { addToCart } from './cartslice';
 import { useDispatch } from 'react-redux';
-
 const AirConditioner=()=>{
  const [mydata, setMydata]= useState([]);
  const dispatch = useDispatch();
-
  const loadData=async()=>{
-    
-
     const response = await axios.get("http://localhost:3000/electronics/?category=AirConditioner");
     console.log(response.data);
     setMydata(response.data);
  }
-
  useEffect(()=>{
     loadData();
  }, []);
@@ -41,29 +32,17 @@ const AirConditioner=()=>{
         </Card.Text>
         <Button variant="primary" onClick={()=>{dispatch(addToCart({id:key.id, Name:key.Name,  category:key.category,  image:key.image,qnty:1,  price:key.price}))}}>Add to Cart</Button>
       </Card.Body>
-    </Card>
-        
+    </Card> 
         </>
     )
  })
-
-
-
-
-
-
-
     return(
         <>
-
-                    <img src={b1} width="100%" height="350" />
-           
-
+ <img src={b1} width="100%" height="350" />
       <h1 className="heading">Latest  Product  AC</h1>
       <div id='cardData'>
       {ans}
       </div>
-      
         </>
     )
 }
