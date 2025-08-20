@@ -77,9 +77,6 @@ return(
       <div id='cardData'>
       {ans} 
       </div>
-
-
-      
         </>
     )
 }
